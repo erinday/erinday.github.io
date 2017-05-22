@@ -1,35 +1,50 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<title>Erin Day - Team</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	
+	<meta name="theme-color" content="#1A181D">
+	<meta name="msapplication-navbutton-color" content="#1A181D">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#1A181D">
+	<style>@font-face{font-family:'Poiret One';src:url(fonts/poiretone-regular/poiretone-regular.woff) format("woff"),url(fonts/poiretone-regular/PoiretOne-Regular.ttf) format("truetype")}*{margin:0;padding:0;border:0;outline:0}.preloader{position:fixed;z-index:999;top:0;right:0;width:100%;height:100%;background-color:#1b1b1b;cursor:default;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.preloader__box{position:relative;width:200px;top:50%;margin:-21px auto 0;padding:5px}.preloader__text{display:inline-block}.preloader__text p{font-size:42px;line-height:1;font-family:'Poiret One',cursive;font-weight:400;color:#101010;color:rgba(255,255,255,.9);text-shadow:0 0 1px rgba(255,255,255,.5)}.preloader__dot{display:inline-block;width:4px;height:4px;-webkit-border-radius:2px;border-radius:2px;background-color:#101010;background-color:#fb374b;-webkit-box-shadow:1px 1px 2px rgba(0,0,0,.4);box-shadow:1px 1px 2px rgba(0,0,0,.4);-webkit-animation-duration:.45s;animation-duration:.45s}.anim_02 .preloader__dot{-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-direction:alternate;animation-direction:alternate}.anim_02 .preloader__dot:nth-child(2){-webkit-animation-name:anim02-1;animation-name:anim02-1}.anim_02 .preloader__dot:nth-child(3){-webkit-animation-name:anim02-2;animation-name:anim02-2}.anim_02 .preloader__dot:last-child{-webkit-animation-name:anim02-3;animation-name:anim02-3}@-webkit-keyframes anim02-1{50%{-webkit-transform:translateX(0);transform:translateX(0)}100%{-webkit-transform:translateX(17px);transform:translateX(17px)}}@keyframes anim02-1{50%{-webkit-transform:translateX(0);transform:translateX(0)}100%{-webkit-transform:translateX(17px);transform:translateX(17px)}}@-webkit-keyframes anim02-2{25%{-webkit-transform:translateX(0);transform:translateX(0)}75%{-webkit-transform:translateX(17px);transform:translateX(17px)}100%{-webkit-transform:translateX(17px);transform:translateX(17px)}}@keyframes anim02-2{25%{-webkit-transform:translateX(0);transform:translateX(0)}75%{-webkit-transform:translateX(17px);transform:translateX(17px)}100%{-webkit-transform:translateX(17px);transform:translateX(17px)}}@-webkit-keyframes anim02-3{0%{-webkit-transform:translateX(0);transform:translateX(0)}50%{-webkit-transform:translateX(17px);transform:translateX(17px)}100%{-webkit-transform:translateX(17px);transform:translateX(17px)}}@keyframes anim02-3{0%{-webkit-transform:translateX(0);transform:translateX(0)}50%{-webkit-transform:translateX(17px);transform:translateX(17px)}100%{-webkit-transform:translateX(17px);transform:translateX(17px)}}</style>
 </head>
 
 <body>
-	<div class="preview">
-		<div class="preview__logo">
+	<div class="preloader anim_02">
+		<div class="preloader__box">
+			<div  class="preloader__text"><p>loading</p></div>
+			<div class="preloader__dot"></div>
+			<div class="preloader__dot"></div>
+			<div class="preloader__dot"></div>
+		</div>
+	</div>
+	<header class="header">
+		<div class="header__logo">
 			<div class="logo__erin">Erin</div>
 			<div class="logo__day">D a y</div>
 		</div>
-		<div class="preview__hello">
-			<h1 class="h1">Hello...</h1>
-			<p class="p">"Welcome to our website. Now the site is available in demo-mode and continues to be developed."</p>
+		<div class="header__hello">
+			<h1 class="hello__h1">Hello...</h1>
+			<p class="hello__p">"Welcome to our website. Now the site is available in demo-mode and continues to be developed."</p>
 		</div>
-		<nav class="preview__menu">
-			<ul>
-				<li><a class="menu__a" href="#">About Us</a></li>
-				<li><a class="menu__a" href="#">Works</a></li>
-				<li><a class="menu__a" href="#">Contacts</a></li>
+		<nav class="header__nav">
+			<ul class="nav__ul">
+				<li class="nav__li" ><a class="nav__a" href="#">About Us</a></li>
+				<li class="nav__li"><a class="nav__a" href="#">Works</a></li>
+				<li class="nav__li"><a class="nav__a" href="#">Contacts</a></li>
 			</ul>
 		</nav>
-		<footer class="preview__footer">
-			<p>© 2017 ErinDay Team. All rights reserved.</p>
-		</footer>
-	</div>
+		<footer class="header__footer">© 2017 ErinDay Team. All rights reserved.</footer>
+	</header>
 	
 	<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/scripts.min.js"></script>
 
 </body>
 </html>
