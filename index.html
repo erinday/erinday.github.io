@@ -25,6 +25,7 @@
 			<div class="preloader__dot"></div>
 		</div>
 	</div>
+	
 	<header class="header">
 		<div class="header__logo">
 			<div class="logo__erin">Erin</div>
@@ -34,21 +35,22 @@
 			<h1 class="hello__h1">Hello...</h1>
 			<p class="hello__p">"Welcome to our website. Now the site is available in demo-mode and continues to be developed."</p>
 		</div>
-		<nav class="header__nav">
-			<button class="hamburger hamburger--collapse-r" type="button">
+		<button class="hamburger hamburger--collapse-r" type="button">
   				<span class="hamburger-box">
    					<span class="hamburger-inner"></span>
   				</span>
 			</button>
+		<nav class="header__nav">
 			<ul class="nav__ul">
-				<li class="nav__li" ><a class="nav__a" href="#">About Us</a></li>
-				<li class="nav__li"><a class="nav__a" href="#">Works</a></li>
-				<li class="nav__li"><a class="nav__a" href="#">Contacts</a></li>
+				<li class="nav__li"><a id="one__a" class="nav__a" href="#">About Us</a></li>
+				<li class="nav__li"><a id="two__a" class="nav__a" href="#">Works</a></li>
+				<li class="nav__li"><a id="thr__a" class="nav__a" href="#">Contacts</a></li>
 			</ul>
 		</nav>
 		<div class="header__footer">© 2017 ErinDay Team. All rights reserved.</div>
 	</header>
-	<section id="about" class="about" style="display:none">
+	
+	<section id="about" class="about">
 		<header class="about__header">
 			<h1 class="about__header__h1">About me</h1>
 			<p class="about__header__p">Some information about me and my skills</p>
@@ -68,11 +70,25 @@
 		</footer>
 	</section>
 	
-	<section id="works" style="display:none">
+	<section id="works" class="works">
+		<header class="works__header">
+			<h1 class="about__header__h1">My works</h1>
+			<p class="about__header__p">My finished works and links to them</p>
+		</header>
 		<article class="work">
 			<div class="work__soon">
 				<h2 class="work__soon__h2">Coming soon</h2>
 				<p class="work__soon__p">Currently, several projects are being developed.</p>
+			</div>
+		</article>
+		<article class="work">
+			<div class="work__screen">
+				<img class="work__screen__img" src="img/Dot-preloader.jpg" alt="Dot-preloader">
+			</div>
+			<div class="work__descr">
+				<h3 class="work__descr__h3">Dot Preloader</h3>
+				<p class="work__descr__p">It's an easy way to add an interesting feature to your website at boot time. Classic appearance, color adjustment, animation selection - suitable for most projects. Easy setup does not take a lot of time.</p>
+				<a class="work__descr__a" href="https://codecanyon.net/">Buy on Codecanyon</a>			
 			</div>
 		</article>
 		<article class="work">
@@ -82,11 +98,16 @@
 			<div class="work__descr">
 				<h3 class="work__descr__h3">Beautiful Travel</h3>
 				<p class="work__descr__p">The first simple template. The creation took one day. Without animations and scripts. Ready work can be downloaded from the links.</p>
-				<a class="work__descr__a" href="#">Download PSD</a>
 				<a class="work__descr__a" href="#">Download Work</a>			
 			</div>
 		</article>
 	</section>
+	
+	<section id="contact" class="contact">
+		
+	</section>
+	
+	
 	<link rel="stylesheet" href="css/main.min.css">
 	<script src="js/scripts.min.js"></script>
 
